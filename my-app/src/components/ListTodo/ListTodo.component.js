@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { List, Row, Col, Divider, Spin } from "antd";
-import { Todo } from "../../components";
+import Todo from "../../components/Todo/Todo.component.js";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { fetchRequest } from "../../saga/Todos/todos.action";

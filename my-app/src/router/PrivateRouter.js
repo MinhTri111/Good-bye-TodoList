@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import ListTodo from "../components/ListTodo/ListTodo.component";
-import { AddTodo } from "../components";
+import AddTodo from "../components/AddTodo/AddTodo.component";
 import SearchTodo from "../components/SearchTodo/SearchTodo";
 import EditTodo from "../components/EditTodo/EditTodo";
 const PrivateRouter = () => (
